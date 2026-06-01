@@ -10,7 +10,7 @@ Devido a preferência de resolução ser individual, a configuração deve ser f
 
 2 - tire uma print da sua tela, usando a ferramenta do Windows ou o Lightshot (não irá funcionar se a print for tirada com a ferramenta da steam)
 
-3 - abra o CHEAT REPORT e clique em configurar
+3 - abra o ***report-cs.exe*** e clique em configurar
 
 4 - clique em capturar coordenadas e posicione o mouse sobre o 1° botão de report e aguarde o programa capturar as coordenadas do mouse, repita isso para todas as posições de report. 
 
