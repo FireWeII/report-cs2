@@ -1,3 +1,5 @@
+Recomendo que você mesmo compile o arquivo, assim pode ler o codigo antes de compilar e garantir sua segurança, mas se não souber como compilar pode baixar o arquivo *report-cs* que já está pronto pra uso.
+
 Devido a preferência de resolução ser individual, a configuração deve ser feita manualmente para que o programa funcione corretamente!
 
 1 - Abra o CS2 na resolução que você joga, aperte ESC para mostrar a o placar com os icones de report
