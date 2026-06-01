@@ -19,3 +19,6 @@ Devido a preferência de resolução ser individual, a configuração deve ser f
 6 - Apague o conteudo da caixa de texto onde as coordenadas anteriores apareceram e e clique em um dos botões de report para abrir o painel de seleção do motivo do report
 
 7 - 
+
+
+**Não há garantia de banimento nos players reportados e também não garanto que não aconteça nada com a sua conta, afinal é um programa externo. Use por sua conta e risco.**
