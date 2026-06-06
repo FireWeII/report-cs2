@@ -1,7 +1,17 @@
 import customtkinter as ctk, random, pyautogui as pag, time
 from mouse import MouseCapture
+import keyboard
+import os
+
+
+def emergencia():
+    os._exit(0)
+
+keyboard.add_hotkey('f11', emergencia) #caso queria trocar a tecla de emergencia é só substituir o F11 pela tecla desejada
 
 fudido = 0
+num_reports = 0
+num_reports = int(num_reports)
 
 def report(alvo):
     with open('report_players.txt', 'r', encoding='utf-8') as arquivo:
@@ -43,7 +53,7 @@ def abrir_mouse():
 def target():
     contador = 0
     fudido = int(selecao.get())
-    while contador <= 10:
+    while contador <= num_reports:
         report(fudido)
         contador +=1
 
@@ -69,11 +79,17 @@ texto1.grid(row=2, column=0, padx=5,pady=10)
 selecao = ctk.CTkEntry(tela1)
 selecao.grid(row=2, column=1)
 
+texto2 = ctk.CTkLabel(tela1, text='Numero de reports:')
+texto2.grid(row=3, column=0, padx=5,pady=10)
+
+selecao2 = ctk.CTkEntry(tela1)
+selecao2.grid(row=3, column=1)
+
 btn_iniciar = ctk.CTkButton(tela1, text='Começar', command=target)
-btn_iniciar.grid(row=3, column=0, padx=5,pady=10, columnspan=2)
+btn_iniciar.grid(row=4, column=0, padx=5,pady=10, columnspan=2)
 
 btn_mouse = ctk.CTkButton(tela1, text='Configurar', command=abrir_mouse)
-btn_mouse.grid(row=3, column=3, padx=5,pady=10, columnspan=2)
+btn_mouse.grid(row=4, column=3, padx=5,pady=10, columnspan=2)
 
 
 janela.mainloop()
