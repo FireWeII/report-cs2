@@ -1,30 +1,101 @@
-Recomendo que você mesmo compile o arquivo, assim pode ler o codigo antes de compilar e garantir sua segurança, mas se não souber como compilar pode baixar o arquivo ***report-cs.exe*** que já está pronto pra uso.
+# Report CS2 - Guia de Configuração e Utilização
 
+## Aviso Importante
 
+Por questões de segurança, recomendo que você mesmo compile o código-fonte. Dessa forma, poderá analisar o código antes de executá-lo e garantir que não há nada indesejado.
 
-**COMO CONFIGURAR O PROGRAMA:**
+Caso não saiba como compilar, você pode baixar a versão já compilada através do link disponível na descrição deste repositório.
 
-Devido a preferência de resolução ser individual, a configuração deve ser feita manualmente para que o programa funcione corretamente!
+---
 
-1 - Abra o CS2 na resolução que você joga, aperte ESC para mostrar a o placar com os icones de report
+## Configuração Inicial
 
-2 - tire uma print da sua tela, usando a ferramenta do Windows ou o Lightshot (não irá funcionar se a print for tirada com a ferramenta da steam)
+Como cada jogador utiliza uma resolução diferente, é necessário configurar as posições dos botões manualmente antes do primeiro uso.
 
-3 - abra o ***report-cs.exe*** e clique em configurar
+### 1. Preparando o jogo
 
-4 - clique em capturar coordenadas e posicione o mouse sobre o 1° botão de report e aguarde o programa capturar as coordenadas do mouse, repita isso para todas as posições de report. 
+1. Abra o Counter-Strike 2 na resolução que você normalmente utiliza.
+2. Entre em uma partida ou abra uma demonstração.
+3. Pressione ESC para exibir a tela onde aparecem os ícones de denúncia (report).
 
-5 - após capturar as 10 posições do mouse clique em "Salvar Players"
+---
 
-6 - Apague o conteudo da caixa de texto onde as coordenadas anteriores apareceram e e clique em um dos botões de report para abrir o painel de seleção do motivo do report
+### 2. Capturando os botões dos jogadores
 
-7 - agora tire uma print do cs com a tela de motivos para reportar aberta
+1. Tire uma captura de tela utilizando:
 
-8 - clique em capturar coodenadas e posicione o mouse sobre os motivos(1 por linha)
+   * Ferramenta de Captura do Windows;
+   * Lightshot.
 
-9 - após capturar as coordenadas dos 4 motivos de report, posicione o mouse sobre o botão enviar e capture a coordenada novamente, a 5 posição no arquivo report_motivos é referente ao botão de enviar a denuncia
+**Importante:** Capturas feitas pela Steam podem não funcionar corretamente.
 
-10 - 
+2. Abra o programa.
+3. Clique em **Configurar**.
+4. Clique em **Capturar Coordenadas**.
+5. Posicione o mouse sobre o primeiro botão de report e aguarde a captura automática.
+6. Repita o processo para os demais jogadores até capturar todas as 10 posições.
 
+Após concluir:
 
-**Não há garantia de banimento nos players reportados e também não garanto que não aconteça nada com a sua conta, afinal é um programa externo. Use por sua conta e risco.**
+7. Clique em **Salvar Players**.
+
+---
+
+### 3. Capturando os motivos da denúncia
+
+1. Limpe o conteúdo da caixa de texto onde apareceram as coordenadas anteriores.
+2. No CS2, clique em qualquer botão de report para abrir a janela de seleção dos motivos da denúncia.
+3. Tire uma nova captura de tela com essa janela aberta.
+4. Volte ao programa e clique novamente em **Capturar Coordenadas**.
+5. Posicione o mouse sobre cada motivo de denúncia, capturando uma posição por vez.
+
+Exemplo:
+
+* Motivo 1
+* Motivo 2
+* Motivo 3
+* Motivo 4
+
+6. Após capturar os quatro motivos, posicione o mouse sobre o botão **Enviar Denúncia** e capture mais uma coordenada.
+
+A quinta posição salva no arquivo **report_motivos** corresponde ao botão **Enviar Denúncia**.
+
+---
+
+## Quantidade de Reports
+
+No campo **Número de Reports**, informe quantas denúncias deseja enviar para cada jogador.
+
+### Recomendação
+
+Utilize valores moderados, como:
+
+**10 reports**
+
+Isso normalmente permite que o processo seja concluído antes do início do próximo round.
+
+Valores muito altos podem fazer com que o procedimento não termine a tempo.
+
+---
+
+## Interrompendo o Programa
+
+Caso seja necessário interromper a execução imediatamente, pressione:
+
+**F11**
+
+O programa será encerrado instantaneamente.
+
+A tecla de emergência só pode ser alterada editando o código-fonte e compilando novamente o programa.
+
+---
+
+## Aviso de Responsabilidade
+
+Este programa é uma ferramenta externa ao Counter-Strike 2.
+
+* Não há qualquer garantia de que os jogadores denunciados serão punidos.
+* Não há garantia de que sua conta não sofrerá algum tipo de restrição ou penalidade.
+* O uso da ferramenta é de inteira responsabilidade do usuário.
+
+Utilize por sua conta e risco.
