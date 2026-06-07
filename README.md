@@ -18,7 +18,13 @@ Devido a preferência de resolução ser individual, a configuração deve ser f
 
 6 - Apague o conteudo da caixa de texto onde as coordenadas anteriores apareceram e e clique em um dos botões de report para abrir o painel de seleção do motivo do report
 
-7 - 
+7 - agora tire uma print do cs com a tela de motivos para reportar aberta
+
+8 - clique em capturar coodenadas e posicione o mouse sobre os motivos(1 por linha)
+
+9 - após capturar as coordenadas dos 4 motivos de report, posicione o mouse sobre o botão enviar e capture a coordenada novamente, a 5 posição no arquivo report_motivos é referente ao botão de enviar a denuncia
+
+10 - 
 
 
 **Não há garantia de banimento nos players reportados e também não garanto que não aconteça nada com a sua conta, afinal é um programa externo. Use por sua conta e risco.**
